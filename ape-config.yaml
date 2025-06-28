@@ -1,0 +1,16 @@
+name: token-dispenser
+
+plugins:
+  - name: solidity
+  - name: optimism
+  - name: etherscan
+
+dependencies:
+  - name: openzeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 5.0.2
+
+node:
+  optimism:
+    mainnet:
+      api_uri: https://optimistic.etherscan.io
